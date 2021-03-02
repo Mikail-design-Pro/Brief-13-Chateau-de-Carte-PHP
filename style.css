@@ -1,0 +1,46 @@
+input {
+  margin-bottom: 2%;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #994f4f;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+nav a {
+  max-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+nav a img {
+  object-fit: contain;
+}
+
+fieldset legend {
+  font-size: 1.4em;
+  font-style: italic;
+  font-weight: bold;
+  color: #994f4f;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar-brand {
+    display: none;
+  }
+}
